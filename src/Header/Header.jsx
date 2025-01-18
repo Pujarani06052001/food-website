@@ -7,9 +7,7 @@ function Header() {
     <header>
       <nav className="navbar navbar-expand-lg navigation-wrap">
         <div className="container">
-          <Link className="navbar-brand" to="/">
-            <img decoding="async" src={image} alt="logo" />
-          </Link>
+         
           <button
             className="navbar-toggler"
             type="button"
@@ -35,12 +33,8 @@ function Header() {
               <li className="nav-item">
                 <Link className="nav-link" to="/recipes">Recipes</Link>
               </li>
-              {/* <li className="nav-item">
-                <a className="nav-link" href="#faq">FAQ</a>
-              </li> */}
-              <li>
-                <button className="main-btn">Sign Up</button>
-              </li>
+              
+             
               <li>
                 <button className="main-btn"><i className="fa-regular fa-heart"></i></button>
               </li>
